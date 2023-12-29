@@ -4,17 +4,16 @@ by
 
 ## Steve Whitehouse 
 
-# Introduction
+## Introduction
 
 I'm doing my xmas project as if it was a full on project for a third party. I will include (asuuming i haven't bit off more than i can chew) A Brief, User Stories, A Project Board On Github, lo=fi/ hi-fi page mockups and testing/validation.
 
 Time to eat the elephant (pass the salt)
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+## Brief
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+Lucy wwants a website for her dog grooming salon in Birminghame, she wants to show off her work, promote her business and grooming products range, take bookings and provide contact and social media info.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
 
