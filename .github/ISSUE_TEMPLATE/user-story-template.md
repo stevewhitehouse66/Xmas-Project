@@ -1,14 +1,16 @@
 ---
 name: User Story Template
 about: Add a User Story using this template
-title: ''
+title: User Story <add Title>
 labels: ''
 assignees: ''
 
 ---
 
-#New User Story
+# New User Story
 
 As a .. Site User/Owner..
 
- I want to ..insert action.. so that I may ..insert value..
+ I want to ..insert action..
+
+So that I may ..insert value..
