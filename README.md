@@ -8,11 +8,11 @@ by
 
 I'm doing my xmas project as if it was a full on project for a third party. I will include (asuuming i haven't bit off more than i can chew) A Brief, User Stories, A Project Board On Github, lo=fi/ hi-fi page mockups and testing/validation.
 
-Time to eat the elephant (pass the salt)
+Time to eat the elephant (pass the salt please?)
 
 ## Brief
 
-Lucy wwants a website for her dog grooming salon in Birminghame, she wants to show off her work, promote her business and grooming products range, take bookings and provide contact and social media info.
+Lucy wants a website for her dog grooming salon in Birminghame, she wants to show off her work, promote her business and grooming products range, take bookings and provide contact and social media info.
 
 
 ## User Stories
@@ -36,8 +36,11 @@ Lucy wwants a website for her dog grooming salon in Birminghame, she wants to sh
 |                      | I want to see Social Media                             | So that I can see my dog will be looked after                         |
 |                      | I want to See a map                                    | So that I may find the shop easily                                    |
 
+## Wireframes
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+First iteration of landing page layout...
+
+![First wireframe](/assets/readme-images/wireframe1.png)
 
 ### Existing Features
 
