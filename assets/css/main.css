@@ -47,7 +47,7 @@ h1 {
     letter-spacing: .5px;
     margin-bottom: .5em;
     text-align: center;
-    text-transform: capitalize;
+    text-transform:uppercase;
 
 }
 h2 {
@@ -57,7 +57,7 @@ h2 {
     letter-spacing: .5px;
     margin-bottom: 1em;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 #menu {
     font-size: 100%;
