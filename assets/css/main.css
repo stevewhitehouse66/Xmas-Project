@@ -18,16 +18,17 @@ flex-direction: column;
 /*Generic Styles*/
 color: #171627;
 flex: 1 0 auto;
-font-family: sans-serif;
+font-family: system-ui, sans-serif;
+font-size: 100%;
 }
 
-#hero {
+/*#hero {
     height: 800px;
     width: 100%;
     background: url("/assets/images/background.webp") no-repeat center/cover;
     background-attachment: fixed ;
     background-position: top;
-}    
+} */   
     /*Header*/
 header{
     background-color: #F4F8F9;
@@ -46,8 +47,8 @@ header a {
   
 }
 h1 {
-    font-family: 'Nova Round', sans-serif;
-    font-size:  170%;
+    font-family: 'Nova Round', system-ui, sans-serif;
+    font-size:  160%;
     color: #171627;
     letter-spacing: .5px;
     margin-bottom: .5em;
@@ -91,32 +92,40 @@ nav{
 
 /*Main*/
 main{
-    background-color: lightblue;
-    flex: 1 0 auto;
+    background-color: lightpink;
+  
     margin-top: 47px;
 }
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+  }
 
 
 /*Footer*/
 footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    font-size: 110%;
+    
     background-color: #F4F8F9;
     padding: .2rem .2rem;
     width: 100%;
-    height: 30px;
+    height: 100px;
     left: 0;
     
    }
    .footer-list{
+    line-height: 75px;
+    font-size: 140%;
     display: flex;
     flex-direction: row;
     width: fit-content;
     justify-content: space-around;
     list-style-type: none;
-    
     column-gap: 1rem;
    }
    footer a {
@@ -148,7 +157,7 @@ footer{
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 250%;
         line-height: 75px;
         margin: 0 0.2rem;
     }
