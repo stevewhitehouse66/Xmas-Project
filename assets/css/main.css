@@ -157,6 +157,45 @@ footer{
     color: inherit;
   
 }
+/* Tables Styles*/
+.table-container{
+    margin: 1rem;
+padding: 1rem;
+background-color:lightpink;
+align-items: center;
+align-content: center;
+}
+table{
+    margin-top: 1rem;
+    width: 80%;
+    table-layout: fixed;
+    border:1px solid #3a3a3a;
+    padding: .5rem;
+    margin-left: .5rem;
+    align-items: left;
+    background-color: #F4F8F9;
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+th {padding: .3rem .5rem;
+height: 2rem;
+text-align: left;
+border-bottom: 1px solid #3a3a3a;
+border-collapse: collapse;
+padding: 1rem ;
+font-family:'Nova Round', system-ui, sans-serif;}
+tr{
+    padding: 1rem ;
+    border: 1px solid #3a3a3a;
+border-collapse: collapse;
+}
+td{
+    padding: .3rem .5rem ;
+    border-bottom: 1px solid #3a3a3a;
+border-collapse: collapse;
+}
 
 @media screen and (max-width: 600px) {  
     .row {
