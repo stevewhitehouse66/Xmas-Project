@@ -307,8 +307,9 @@ td {
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
+        flex-direction: row-reverse;
     }
-}
+ 
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
@@ -335,9 +336,9 @@ td {
     }
 
     #logo {
-        font-size: 230%;
+        font-size: 220%;
         line-height: 79px;
-        margin: 0 0.2rem;
+        margin: 0 0.1rem;
     }
 
     /* Main content */
@@ -350,7 +351,7 @@ td {
         font-size: 2vw;
     }
     .image-size{
-        width: 400px;
+        width:90%;
     }
 
     /* Gallery */
