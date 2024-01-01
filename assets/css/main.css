@@ -57,6 +57,7 @@ h2 {
     color: #171627;
     letter-spacing: .5px;
     margin-bottom: 1em;
+    margin-top: 1em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -230,12 +231,53 @@ td {
     padding: 0 0;
 }
 
+/*Contact Us Styles*/
+#booking {
+    background-image: url("../images/shop.png");
+    background-size: cover;
+    height : 100vh;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+#booking h2{color: #F4F8F9;}
+.contact-info {
+    color: #F4F8F9;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;}
+
+
+.contact-info li{ list-style-type: none;}
+
+.booking-form{ 
+    color: #F4F8F9;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;}
+
+.text-input {
+        background: transparent;
+        color: #F4F8F9;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #F4F8F9;
+        border-radius: 2px;
+        padding: 0 5px;
+    }
+.time-input {
+        background: transparent;
+        color: #F4F8F9;
+        height: 25px;
+        width: 50px;
+        margin: 2px 0 20px 0;
+        border: 1px solid #F4F8F9;
+        border-radius: 2px;
+        padding: 0 2px;
+    }
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
     }
 }
-
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
