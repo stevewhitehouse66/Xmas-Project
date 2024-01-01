@@ -148,17 +148,17 @@ main {
     margin:  .2rem .2rem ;
 }
 
-/*.image-size{
-    width: 1vw;
-}*/
-.image-size {
+.image-size{
+    width: 300px;
+}
+/*.image-size {
     display: block;
     width: auto;
     height: auto;
     max-width: 100%;
     max-height: 90%;
     margin: 20px auto;
-  }
+  }*/
 
 /*Footer*/
 
