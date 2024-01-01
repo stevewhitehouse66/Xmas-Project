@@ -10,8 +10,6 @@
 
 /*General Styling*/
 
-
-
 body {
     min-height: 100vh;
     min-width: 300px;
@@ -78,6 +76,7 @@ h2 {
 }
 
 /*Navbar with Dropdown Toggle*/
+
 nav {
     position: absolute;
     background-color: #F4F8F9;
@@ -90,6 +89,7 @@ nav {
 }
 
 /*Nav Toggle*/
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -103,6 +103,7 @@ nav {
 }
 
 /*Main*/
+
 main {
     background-color: lightpink;
     flex: 1 0 auto;
@@ -144,6 +145,7 @@ main {
 }
 
 /*Footer*/
+
 footer {
     display: flex;
     flex-direction: column;
@@ -153,8 +155,6 @@ footer {
     padding: .2rem .2rem;
     width: 100%;
     height: 40px;
-
-
 }
 
 .footer-list {
@@ -171,7 +171,6 @@ footer {
 footer a {
     text-decoration: none;
     color: inherit;
-
 }
 
 /* Tables Styles*/
@@ -220,6 +219,7 @@ td {
 }
 
 /* Gallery Styles*/
+
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -237,6 +237,7 @@ td {
 }
 
 /* Media query: tablets and larger (768px and up) */
+
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -267,18 +268,21 @@ td {
     }
 
     /* Main content */
+
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 
     /* Gallery */
+
     #photos {
         column-count: 3;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
+
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
@@ -291,6 +295,7 @@ td {
     }
 
     /* Gallery */
+    
     #photos {
         column-count: 4;
     }
