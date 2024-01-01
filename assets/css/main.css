@@ -262,13 +262,18 @@ td {
     flex-grow: 1;
 }
 #booking h2{color: #F4F8F9;}
-.contact-info {
+
+#contact-info {
     color: #F4F8F9;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;}
 
 
-.contact-info li{ list-style-type: none;}
+#contact-info li{ 
+    list-style-type: none;
+   margin-top: .2em;
+   padding: .5em;
+}
 
 .booking-form{ 
     color: #F4F8F9;
@@ -284,6 +289,15 @@ td {
         border: 1px solid #F4F8F9;
         border-radius: 2px;
         padding: 0 5px;
+    }
+    .date-input {
+        background: transparent;
+        color: #F4F8F9;
+        height: 25px;
+        margin: 2px 0 20px 0;
+        border: 1px solid #F4F8F9;
+        border-radius: 2px;
+        padding: 0 2px;
     }
 .time-input {
         background: transparent;
@@ -304,12 +318,15 @@ td {
         background-color: #454b1b;
         color: #fafafa;
     }
+.map{
+    width: 90%;
+}
+   
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
-        flex-direction: row-reverse;
     }
- 
+}
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
