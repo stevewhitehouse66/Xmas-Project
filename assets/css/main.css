@@ -108,7 +108,7 @@ nav {
 main {
     background-image: url("../images/shop.png");
     background-size: cover;
-    height : 100vh;
+    height: 100vh;
     background-position: 75%;
     background-color: lightpink;
     flex: 1 0 auto;
@@ -123,14 +123,15 @@ main {
     flex-direction: row;
     align-items: center;
     padding-top: .5rem;
- 
-    
+
+
 }
 
 .row-light {
     background: rgba(172, 154, 167, .6);
     color: #F4F8F9;
 }
+
 .row-dark {
     background: rgba(173, 133, 163, .6);
     color: #F4F8F9;
@@ -139,16 +140,16 @@ main {
 .column-left {
     flex: 50%;
     padding: 1Rem 1rem;
-    margin: .2rem .2rem ;
+    margin: .2rem .2rem;
 }
 
 .column-right {
     flex: 50%;
     padding: 1rem 1rem;
-    margin:  .2rem .2rem ;
+    margin: .2rem .2rem;
 }
 
-.image-size{
+.image-size {
     width: 300px;
 }
 
@@ -156,9 +157,9 @@ main {
 
 footer {
     position: fixed;
-  left: 0;
-  bottom: 0;
-  display: flex;
+    left: 0;
+    bottom: 0;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -242,87 +243,96 @@ td {
     line-height: 0;
     padding: 0 0;
     height: 100vh;
-  
+
 }
 
 /*Contact Us Styles*/
 #booking {
     background-image: url("../images/shop.png");
     background-size: cover;
-    height : 100vh;
+    height: 100vh;
     background-position: 75%;
     padding: 20px 10% 20px 10%;
     flex-grow: 1;
 }
-#booking h2{color: #F4F8F9;
+
+#booking h2 {
+    color: #F4F8F9;
     letter-spacing: .5px;
     margin-bottom: .5em;
-    margin-top: .5em;}
+    margin-top: .5em;
+}
 
 #contact-info {
     color: #F4F8F9;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;}
-
-
-#contact-info li{ 
-    list-style-type: none;
-   margin-top: .2em;
-   padding: .2em;
+    padding: 30px;
 }
 
-.booking-form{ 
+
+#contact-info li {
+    list-style-type: none;
+    margin-top: .2em;
+    padding: .2em;
+}
+
+.booking-form {
     color: #F4F8F9;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;}
+    padding: 30px;
+}
 
 .text-input {
-        background: transparent;
-        color: #F4F8F9;
-        height: 25px;
-        width: 100%;
-        margin: 5px 0 20px 0;
-        border: 1px solid #F4F8F9;
-        border-radius: 2px;
-        padding: 0 5px;
-    }
-    .date-input {
-        background: transparent;
-        color: #F4F8F9;
-        height: 25px;
-        margin: 2px 0 20px 0;
-        border: 1px solid #F4F8F9;
-        border-radius: 2px;
-        padding: 0 2px;
-    }
-.time-input {
-        background: transparent;
-        color: #F4F8F9;
-        height: 25px;
-        width: 50px;
-        margin: 2px 0 20px 0;
-        border: 1px solid #F4F8F9;
-        border-radius: 2px;
-        padding: 0 2px;
-    }
+    background: transparent;
+    color: #F4F8F9;
+    height: 25px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #F4F8F9;
+    border-radius: 2px;
+    padding: 0 5px;
+}
 
-    .submit {
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px;
-        font-size: 100%;
-        background-color: #454b1b;
-        color: #fafafa;
-    }
-#map{
+.date-input {
+    background: transparent;
+    color: #F4F8F9;
+    height: 25px;
+    margin: 2px 0 20px 0;
+    border: 1px solid #F4F8F9;
+    border-radius: 2px;
+    padding: 0 2px;
+}
+
+.time-input {
+    background: transparent;
+    color: #F4F8F9;
+    height: 25px;
+    width: 50px;
+    margin: 2px 0 20px 0;
+    border: 1px solid #F4F8F9;
+    border-radius: 2px;
+    padding: 0 2px;
+}
+
+.submit {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+#map {
     padding-bottom: 1em;
 }
-   
+
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
     }
 }
+
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
@@ -341,7 +351,7 @@ td {
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding-left: .5rem;
     }
 
     .nav-toggle-label {
@@ -360,11 +370,13 @@ td {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
-    .row{
+
+    .row {
         font-size: 2vw;
     }
-    .image-size{
-        width:90%;
+
+    .image-size {
+        width: 90%;
     }
 
     /* Gallery */
@@ -387,12 +399,13 @@ td {
         line-height: 79px;
         margin: 0 0.2rem;
     }
-    .image-size{
+
+    .image-size {
         width: 80%;
     }
 
     /* Gallery */
-    
+
     #photos {
         column-count: 4;
         column-gap: 0;
