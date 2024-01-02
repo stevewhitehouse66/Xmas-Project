@@ -233,7 +233,7 @@ td {
 
 /* Gallery Styles*/
 
-#photos img {
+#photos, img {
     width: 100%;
     line-height: 1em;
 }
@@ -297,6 +297,7 @@ td {
     background: transparent;
     color: #F4F8F9;
     height: 25px;
+    min-width: 100px
     margin: 2px 0 20px 0;
     border: 1px solid #F4F8F9;
     border-radius: 2px;
@@ -375,9 +376,7 @@ td {
         font-size: 2vw;
     }
 
-    .image-size {
-        width: 90%;
-    }
+   
 
     /* Gallery */
 
@@ -400,9 +399,7 @@ td {
         margin: 0 0.2rem;
     }
 
-    .image-size {
-        width: 80%;
-    }
+ 
 
     /* Gallery */
 
