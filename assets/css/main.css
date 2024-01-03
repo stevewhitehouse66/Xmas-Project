@@ -297,11 +297,11 @@ td {
     background: transparent;
     color: #F4F8F9;
     height: 25px;
-    min-width: 100px
-    margin: 2px 0 20px 0;
+    min-width: 130px;
+    margin: 5px 0 5px 0;
     border: 1px solid #F4F8F9;
     border-radius: 2px;
-    padding: 0 2px;
+    padding: 5 2px;
 }
 
 .time-input {
@@ -320,7 +320,15 @@ td {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #454b1b;
+    background-color: #da9bcc;
+    color: #fafafa;
+}
+.submit:hover {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #a15090;
     color: #fafafa;
 }
 
