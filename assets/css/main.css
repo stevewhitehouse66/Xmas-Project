@@ -133,7 +133,7 @@ main {
 }
 
 .row-dark {
-    background: rgba(173, 133, 163, .6);
+    background: rgba(90, 35, 81, 0.6);;
     color: #F4F8F9;
 }
 
@@ -190,7 +190,7 @@ footer a {
     margin-top: 1rem;
     padding-top: 1rem;
     padding-bottom: 5rem;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(90, 35, 81, 0.6);;
     align-items: center;
     align-content: center;
 }
@@ -265,10 +265,13 @@ td {
 
 #contact-info {
     color: #F4F8F9;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(90, 35, 81, 0.6);
     padding: 30px;
 }
-
+#contact-info a {
+    color: #F4F8F9;
+    text-decoration: none;
+}
 
 #contact-info li {
     list-style-type: none;
@@ -278,7 +281,7 @@ td {
 
 .booking-form {
     color: #F4F8F9;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(90, 35, 81, 0.6);
     padding: 30px;
 }
 
