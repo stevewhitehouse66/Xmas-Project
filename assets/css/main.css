@@ -40,7 +40,9 @@ header a {
     color: inherit;
 
 }
-
+#logo {
+    padding-left: .2rem;
+}
 h1 {
     font-family: 'Nova Round', system-ui, sans-serif;
     font-size: 160%;
@@ -70,6 +72,7 @@ h2 {
 
 #menu>li {
     margin-bottom: .5em;
+    margin: .2em;
 }
 
 .active {
@@ -81,7 +84,7 @@ h2 {
 nav {
     position: absolute;
     background-color: #F4F8F9;
-    padding: 0 .2rem;
+    padding: .5rem .5rem;
     width: 100%;
     left: 0;
     box-shadow: 0 2px 2px #3a3a3a;
