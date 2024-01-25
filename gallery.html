@@ -49,26 +49,88 @@
     </header>
     <main>
         <section id="gallery">
-            <div id="photos">
-                <img src="assets/images/bulldog.png" alt="An English Bulldog">
+           <div id="photos">
+                <img class ="gallery-image"src="assets/images/bulldog.png" alt="An English Bulldog">
 
-                <img src="assets/images/fenchie.png" alt="A French Bulldog">
-                <img src="assets/images/great_dane.png" alt="A Great Dane">
-                <img src="assets/images/poodle.png" alt="A Pink Poodle">
-                <img src="assets/images/cross.png" alt="A crossbreed dog">
+                <img class ="gallery-image"src="assets/images/fenchie.png" alt="A French Bulldog">
+                <img class ="gallery-image"src="assets/images/great_dane.png" alt="A Great Dane">
+                <img class ="gallery-image"src="assets/images/poodle.png" alt="A Pink Poodle">
+                <img class ="gallery-image"src="assets/images/cross.png" alt="A crossbreed dog">
 
-                <img src="assets/images/yorkie-coat.png" alt="Yorkie wearing a coat">
-                <img src="assets/images/yorkie-coat2.png" alt="Yorkie in a coat too">
-                <img src="assets/images/scruff.png" alt="A scruffy dog">
-                <img src="assets/images/shiitzu.png" alt="A Shit-zu">
-                <img src="assets/images/great_dane.png" alt="A Great Dane">
-                <img src="assets/images/cross.png" alt="A crossbreed dog">
-                <img src="assets/images/fenchie.png" alt="A French Bulldog">
-                <img src="assets/images/bulldog.png" alt="An English Bulldog">
-                <img src="assets/images/scruff.png" alt="A scruffy dog">
+                <img class ="gallery-image"src="assets/images/yorkie-coat.png" alt="Yorkie wearing a coat">
+                <img class ="gallery-image"src="assets/images/yorkie-coat2.png" alt="Yorkie in a coat too">
+                <img class ="gallery-image"src="assets/images/scruff.png" alt="A scruffy dog">
+                <img class ="gallery-image"src="assets/images/shiitzu.png" alt="A Shit-zu">
+                <img class ="gallery-image"src="assets/images/great_dane.png" alt="A Great Dane">
+                <img class ="gallery-image"src="assets/images/cross.png" alt="A crossbreed dog">
+                <img class ="gallery-image"src="assets/images/fenchie.png" alt="A French Bulldog">
+                <img class ="gallery-image"src="assets/images/bulldog.png" alt="An English Bulldog">
+                <img class ="gallery-image"src="assets/images/scruff.png" alt="A scruffy dog">
             </div>
-        </section>
 
+
+      
+        <div id="img-modal" class="modal">
+        <!-- Modal content -->
+          <div class="modal-content">
+            <img></img>
+            <span class="close">X</span>
+            <p>alt</p>
+          </div>
+        
+        </div></div>
+        </section>
+        
+
+<script>
+const modal = document.getElementById("img-modal");
+const galleryImages = document.querySelectorAll('.gallery-image');
+
+// Add click event listeners to each image
+// Function to handle image click event
+function handleImageClick(imgElement) {
+    const imgUrl = imgElement.src;
+    const imgAlt = imgElement.alt;
+displayModal(imgUrl, imgAlt);
+}
+
+// Function to display modal with clicked image
+function displayModal(imgUrl, imgAlt) {
+const modalImg = document.createElement("img");
+    modalImg.setAttribute("src", imgUrl);
+    modalImg.setAttribute("width", "200%");
+    modalImg.setAttribute("height", "200%");
+    modalImg.setAttribute("alt", imgAlt);
+    modal.appendChild(modalImg);
+    modal.style.display = "block";
+}
+
+// Attach event listeners to gallery images
+galleryImages.forEach(function(imgElement) {
+    imgElement.addEventListener('click', function() {
+        handleImageClick(imgElement);
+    });
+});
+
+// Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+            
+          
+            
+// When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+        modal.innerHTML = ''; // Clear the modal content
+    }
+            
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+            modal.innerHTML = ''; // Clear the modal
+        }
+    }
+    </script>
     </main>
     <!-- Footer-->
 
