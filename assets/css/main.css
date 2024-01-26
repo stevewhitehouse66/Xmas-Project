@@ -246,7 +246,7 @@ td {
     padding: 10;
     height: 90vh;
     line-height: 1em;
-    overflow:hidden;
+    
 }
 #photos > img {
     width: clamp(300px, 40vw, 25vw);
