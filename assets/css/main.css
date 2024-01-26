@@ -242,18 +242,14 @@ td {
 
 
 #photos {
-    display: block;
-    flex: 25%;
-    gap: 20px;
     background-color: rgba(90, 35, 81, 0.6);
-    padding: 0 0;
-    height: 100vh;
+    padding: 10;
+    height: 90vh;
     line-height: 1em;
-    overflow: hidden;
-
+    overflow:hidden;
 }
 #photos > img {
-    width: 30vw;
+    width: clamp(300px, 40vw, 25vw);
     height: auto;
     
     
@@ -262,6 +258,7 @@ td {
 #img-modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
+    flex-direction: column;
     z-index: 1; /* Sit on top */
     padding-top: 75px; /* Location of the box */
     top: 0;
@@ -277,37 +274,44 @@ td {
     background-color: #fafafa;
     padding: 0;
     border: 1px solid #888;
-    width: 90%;
-    height: 90%;
+    width: fit-content;
+    height: fit-content;
     margin: auto;
   }
   .modal-content img {
-   height: auto;
-   width: 90%;
-   padding: 50px;
+   height: 100%;
+   width: auto;
+   align-content: center;
+   vertical-align: middle;
+   max-width: 800px;
+   padding-top: 50px;
+   padding-left: 50px;
+   padding-bottom: 50px;
    margin: auto;
    z-index: 5;
+  }
+  .image-text{
+    flex-direction: row;
+    text-align: center;
+    color: #171627;
+  
+    
   }
   
   /* The Close Button */
   .close {
-    color: #fafafa;
-    background-color: #da9bcc;
+    color: rgba(90, 35, 81, 1);
     float: right;
     font-size: 24px;
     font-weight: bold;
-    padding: 20px;
     z-index: 100;
-    border: 5 solid rgba(90, 35, 81, 1);
-    border-radius: 50%;
+    
+    
+    padding: 15px;
+
   }
   
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+
 /*Contact Us Styles*/
 #booking {
     background-image: url("../images/shop.png");
@@ -407,6 +411,12 @@ td {
     }
 }
 
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
@@ -455,7 +465,6 @@ td {
 
     #photos {
         column-count: 3;
-        gap: 10;
     }
 }
 
@@ -477,7 +486,6 @@ td {
     /* Gallery */
 
     #photos {
-        column-count: 4;
-        gap: 10;
+        column-count: 4; 
     }
 }
