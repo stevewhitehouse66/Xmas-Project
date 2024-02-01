@@ -55,10 +55,10 @@
 
                 <img class ="gallery-image"src="assets/images/scruff.png" alt="A scruffy dog">
                 <img class ="gallery-image"src="assets/images/great_dane.png" alt="A Great Dane">
-                                <img class ="gallery-image"src="assets/images/yorkie-coat.png" alt="Yorkie wearing a coat">
+                <img class ="gallery-image"src="assets/images/yorkie-coat.png" alt="Yorkie wearing a coat">
                 <img class ="gallery-image"src="assets/images/cross.png" alt="A crossbreed dog">
-                  <img class ="gallery-image"src="assets/images/fenchie.png" alt="A French Bulldog">
-              <img class ="gallery-image"src="assets/images/poodle.png" alt="A Pink Poodle">
+                <img class ="gallery-image"src="assets/images/fenchie.png" alt="A French Bulldog">
+                <img class ="gallery-image"src="assets/images/poodle.png" alt="A Pink Poodle">
                 
                 <img class ="gallery-image"src="assets/images/shiitzu.png" alt="A Shit-zu">
                 <img class ="gallery-image"src="assets/images/great_dane.png" alt="A Great Dane">
@@ -71,11 +71,10 @@
 
      <div class="modal">
         <div id="img-modal" >
-       
-        </div>
+       </div>
      </div>
          
-        </section>
+    </section>
         
 
 
@@ -95,46 +94,9 @@
         </ul>
 
     </footer>
-    <script>
-        const modal = document.getElementById("img-modal");
-        const galleryImages = document.querySelectorAll('.gallery-image');
-        //console.log(galleryImages);
-        console.log(modal);
-        // Add click event listeners to each image
-        function setupImageClickHandlers(galleryImages) {
-            galleryImages.forEach(function(imgElement) {
-                imgElement.addEventListener('click', function() {
-                    const imgUrl = imgElement.src;
-                    const imgAlt = imgElement.alt;
-                    displayModal(imgUrl, imgAlt);
-                  //  console.log (imgElement)
-                });
-            });
-        }
-        
-  
-        //display modal with clicked image
-        function displayModal(imgUrl, imgAlt) {
-            modal.innerHTML = `<div class="modal-content" id ="modal-content">
-                <span onclick ="closeModal()" class="close">&times</span>
-                <img src="${imgUrl}" alt="${imgAlt}"></img>
-                <div class="image-text"><h2>${imgAlt}</h2></div></div>`;
-            modal.style.display = "flex";
-        }
-        setupImageClickHandlers(galleryImages);
-        
-       function closeModal() {
-                modal.style.display = "none";
-           }
-                    
-        // When the user clicks anywhere outside of the modal, close it
-          window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-            </script>
+    
 </body>
+<script src="/assets/scripts/script.js"></script>
 <script src="https://kit.fontawesome.com/f382a4fd20.js" crossorigin="anonymous"></script>
 
 </html>
