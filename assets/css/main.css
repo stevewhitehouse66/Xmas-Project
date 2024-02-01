@@ -15,13 +15,15 @@ body {
     min-width: 300px;
     display: flex;
     flex-direction: column;
-    /*Generic Styles*/
+
     color: #171627;
     flex: 1 0 auto;
     font-family: system-ui, sans-serif;
     font-size: 100%;
 }
-
+.text-center {
+    text-align: center;
+}
 /*Header*/
 header {
     background-color: #F4F8F9;
@@ -56,6 +58,17 @@ h1 {
 h2 {
     font-family: 'Nova Round', system-ui, sans-serif;
     font-size: 120%;
+    color: #F4F8F9;
+    letter-spacing: .5px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Nova Round', system-ui, sans-serif;
+    font-size: 100%;
     color: #F4F8F9;
     letter-spacing: .5px;
     margin-bottom: 1em;
@@ -403,6 +416,21 @@ td {
 
 #map {
     padding-bottom: 1em;
+}
+/*Form response styles*/
+.response-container{
+    background-color: rgba(90, 35, 81, 0.8);
+    padding: 10;
+    height: 90vh;
+    width: 100%;
+    line-height: 3em;
+    margin: auto;
+    color: #fafafa;
+    padding: 50px;
+}
+.response-container p {
+    padding-left: 100px;
+    font-size: 120%;
 }
 
 @media screen and (max-width: 600px) {
