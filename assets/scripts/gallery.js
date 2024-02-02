@@ -1,6 +1,6 @@
 //Gallery page image display
 const modal = document.getElementById("img-modal");
-        const galleryImages = document.querySelectorAll('.gallery-image');
+        const galleryImages = document.querySelectorAll('.thumbnail');
 
 // Add click event listeners to each image
         function setupImageClickHandlers(galleryImages) {
